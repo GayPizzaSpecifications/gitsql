@@ -1,0 +1,20 @@
+[package]
+name = "gitsql"
+description = "Git on PostgreSQL"
+license = "MIT"
+keywords = ["git", "postgres", "postgresql"]
+readme = "README.md"
+documentation = "https://docs.rs/gitsql"
+version = "0.1.0"
+authors = ["Alex Endfinger <alex@fork.run>"]
+build = "build.rs"
+
+[dependencies]
+git2 = "0.15.0"
+
+[build-dependencies]
+glob = "0.3.0"
+
+[[bin]]
+name = "gitsql"
+path = "src/main.rs"

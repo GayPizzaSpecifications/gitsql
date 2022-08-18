@@ -1,0 +1,23 @@
+# Database Output
+/db/build/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Python
+*.pyc
+
+# CMake
+CMakeFiles/
+cmake-build-*/
+out/
+
+# Other
+work/
+venv/
+
+# Rust
+target/
+Cargo.lock
